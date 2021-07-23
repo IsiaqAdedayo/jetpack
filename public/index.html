@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="./assets/mystyle.css">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/86adb19eb4.js" crossorigin="anonymous"></script>
+    <title>Jetpack</title>
+</head>
+<body class="w-screen m-auto xl:w-10/12 md:flex flex-col items-center justify-between font-Proxima_Nova_New overflow-x-hidden darkBlue">
+    <header class="w-full xl:w-11/12 py-5">
+        <nav class="flex items-center xl:ml-96 mb-16 justify-around xl:justify-between">
+          <a href="#" class="flex items-center cursor-pointer">
+            <img src="./assets/Jetpack_Logo.svg" alt="logo" />
+            <p class="uppercase text-3xl text-gradient font-bold tracking-widest blue-text-grd pl-2">Jetpack</p>
+          </a>
+          <ul
+            class="
+              xl:inline-flex
+              uppercase
+              text-xs text-primary
+              w-2/4
+              justify-between
+              items-center
+              light-blue-text
+              font-bold
+              tracking-widest
+              hidden
+            "
+          >
+            <li class="cursor-pointer">
+                <a href="#about">About</a>
+            </li>
+            <li class="cursor-pointer">
+                <a href="#projects">Projects</a>
+            </li>
+            <li class="cursor-pointer">
+                <a href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <div class="xl:hidden">
+            <i class="fa fa-bars fa-2x navMobile"></i>
+            <div class="absolute top-16 z-10  right-5 w-11/12 md:w-10/12 md:right-12 h-40 bg-blue-100 shadow-md text-darkBlue mobile-nav hidden">
+                 <ul class="text-center space-y-3 flex flex-col items-center justify-center pt-2">
+                    <li class="cursor-pointer p-2 border-b border-darkBlue w-11/12">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="cursor-pointer p-2 border-b border-darkBlue w-11/12">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="cursor-pointer p-2 ">
+                        <a href="#contact">Contact</a>
+                    </li>
+                 </ul>   
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <main class="p-2 pl-3 md:pl-5">
+        <div class="md:flex -mt-12 md:mt-0">
+            <section class="flex-none items-center md:w-96  w-screen lg:pl-10">
+                <div class="md:flex flex-col justify-between space-x-1 ">
+                    <div class="md:flex">
+                    <ul
+                        class="
+                        flex
+                        w-4/12
+                        md:1/12
+                        lg:w-5/12
+                        h-full
+                        mt-10
+                        text-sm
+                        transform
+                        rotate-90
+                        lg:pt-32
+                        space-x-5
+                        md:pr-20
+                        ml-60
+                        md:ml-0
+                        "
+                    >
+                        <li class="darkBlue">Facebook</li>
+                        <li class="darkBlue">Twitter</li>
+                        <li class="blue-text-grd">LinkedIn</li>
+                        <li class="lightBlue">Instagram</li>
+                    </ul>
+                    <section>
+                        <p class="text-sm font-bold pb-2 active tracking-widest text-blue-900">Welcome to Jetpack</p>
+                        <h1 class="max-w-xs text-6xl font-extrabold text-primary leading-tight xl:leading-relaxed blue-text-grd font-Proxima_Nova_New ">
+                        A Digital Product Studio
+                        </h1>
+                    </section>
+                    </div>
+                </div>
+            </section>
+            <section class="flex-grow ml-20 h-full">
+                <img src="./assets/Hero_Image.png" alt="create" class="banner" />
+            </section>
+        </div>
+
+        <div class="mt-20 w-screen md:w-full font-semibold text-lg leading-loose p-3 darkBlue" id="about">
+            <p class="font-bold mb-2 uppercase text-xs tracking-widest text-blue-900 pb-5">About</p>
+            <p class="md:text-left w-full md:w-10/12 tracking-wider font-semibold text-xl leading-loose text-darkBlue">
+            We at Jetpack are a digital product studio that is passionate about
+            storytelling, visual design and technology. Our all star team
+            collaborates with small to large companies around the world to help
+            them engage their audiences and build brand recognition and award
+            winning products.
+            </p>
+            <p class="md:text-right mt-4 md:ml-auto w-11/12 md:w-10/12 tracking-wider font-semibold text-xl leading-loose">
+            Jetpack has created award-winning web experiences and digital products
+            that generate results. Our innovative designs focus on capturing user
+            attention and driving conversion. All our projects begin with deep
+            market research, followed by strategic planning, creative thinking and
+            professional execution.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 my-10">
+            <div class="relative text-center blue-bg">
+                <div class="flex justify-end">
+                    <img
+                    src="./assets/pencil-case.svg"
+                    alt="pencil"
+                    class="pl-20"
+                    />
+                </div>
+                <p class="absolute top-2 right-16 text-white font-bold text-2xl text-left">
+                    Branding and Design
+                </p>
+            </div>
+    
+            <div class="relative text-center green-bg">
+                <div class="flex justify-end">
+                    <img
+                    src="./assets/light-bulb.svg"
+                    alt="pencil"
+                    class="pl-20"
+                    />
+                </div>
+                <p class="absolute top-2 right-16 text-white font-bold text-2xl ml-4 text-left">
+                    Development Solutions
+                </p>
+            </div>
+    
+            <div class="relative text-center purple-bg">
+                <div class="flex justify-end">
+                    <img
+                    src="./assets/Bitcoin.svg"
+                    alt="pencil"
+                    class="pl-20"
+                    />
+                </div>
+                <p class="absolute top-2 right-16 text-white font-bold text-2xl ml-4 text-left">
+                    Crypto Design Product
+                </p>
+            </div>
+        </div>
+
+        <div class="mt-20" id="projects">
+            <p class="font-bold text-xs mb-2 uppercase tracking-widest text-blue-900 pb-5">Projects</p>
+            <p class="dark-blue-text font-semibold leading-loose text-xl">
+                Spotlighting work that shows different facets of our capabilities,
+                design imagination, coding skills, and branding magic.
+            </p>
+        </div>
+
+        <div class=" space-y-9 pt-7">
+            <div class="w-full">
+                <img src="./assets/Learn_cover_image.png" alt="Learn">
+            </div>
+            <div class="w-full grid grid-cols-2">
+                <img src="./assets/Splash Screen (iPad 11 Pro).png" alt="Splash">
+                <img src="./assets/Home (iPad 11 Pro).png" alt="aarp">
+            </div>
+            <div class="w-full">
+                <img src="./assets/phatimals_placeholder.png" alt="phatimals">
+            </div>
+            <div class="text-right w-full font-semibold text-lg">
+                
+                <h1 class="text-blue-800 text-2xl tracking-widest"> <i class="fa fa-twitter text-blue-600"></i> Get in touch to see more</h1>
+            </div>
+        </div>
+
+        <div class="mt-20 tracking-widest w-full" id="contact">
+            <form name="contact" method="POST" data-netlify="true">
+                <p class="text-blue-900 pb-5">contact us</p>
+                <p class="dark-blue-text text-lg font-extrabold leading-loose">
+                  Love what you see? have some questions? want to get us some donuts and
+                  coffee? We promise we'll get back to you soon :-)
+                </p>
+                <div class="my-10 space-y-5 md:space-y-0 md:space-x-5 grid grid-cols-1 md:grid-cols-2 justify-between ">
+                    <div class="space-y-5 font-bold">
+                        <input type="text" placeholder="Name" name="name" class="py-5 p-3 w-full text-sm text-white placeholder-blue-900 bodrGrad outline-none" required />
+
+                        <input type="email" placeholder="Email" name="email" class="py-5 p-3 w-full text-sm text-white placeholder-blue-900 bodrGrad outline-none" required/>
+
+                        <input type="number" placeholder="Phone Number" name="phoneNumber" class="py-5 p-3 w-full text-sm text-white bodrGrad  border-blue-800 outline-none" required/>
+
+                        <input type="submit" value="Send Message" class="py-3 px-14 mt-7 text-white button_bg rounded hidden md:block" />
+                    </div>
+
+                    <div>
+                        <textarea name="message"  placeholder="Message" class="p-3 w-full text-sm text-white placeholder-blue-900 bodrGrad  outline-none" rows="13" required></textarea>
+                    </div>
+
+                    <input type="submit" value="Send Message" class="py-3 px-14 mt-7 text-white button_bg rounded md:hidden"/>
+                </div>
+                
+            </form>
+        </div>
+
+        <footer class="w-full py-5 border-t-4 border-b-4 border-gray-100">
+            <nav class="flex-grow flex items-center justify-around">
+              <div class="flex flex-col items-center">
+                <div class="flex items-center">
+                    <a href="#" class="flex items-center cursor-pointer">
+                        <img src="./assets/Jetpack_Logo.svg" alt="logo" />
+                        <p class="uppercase text-3xl text-gradient font-bold tracking-widest blue-text-grd pl-2">Jetpack</p>
+                    </a>
+                </div>
+                <p class="text-xs font-bold">Digital Product Studio</p>
+              </div>
+              <ul
+                class="
+                  md:inline-flex
+                  uppercase
+                  text-xs text-primary
+                  w-1/3
+                  justify-between
+                  items-center
+                  light-blue-text
+                  font-bold
+                  tracking-widest
+                  hidden
+                "
+              >
+                <li class="cursor-pointer">
+                    <a href="#about">About</a>
+                </li>
+                <li class="cursor-pointer">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="cursor-pointer">
+                    <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </nav>
+        </footer>
+
+        <script src="app.js"></script>
+    </main>
+</body>
+</html>
